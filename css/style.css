@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style-type: none;
+} 
+a {
+    text-decoration: none;
+}
+.clr {
+    clear:both
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+/*=============navbar part css start here================*/
+.nav-main {
+    display: flex;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.logo {
+    width: 130px;
+}
+.logo img {
+    padding-top: 15px;
+}
+.menu {
+    width: 830px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 9px;
+    
+}
+.menu ul li {
+    display:inline-block;
+    padding-left: 15px;
+}
+.menu ul li a {
+    line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    transition: all linear .3s;
+    position: relative;
+}
+.menu ul li a:hover {
+    color: #00e0d0;
+}
+.menu ul li a::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #00e0d0;
+    left: 0;
+    bottom: -12px;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.menu ul li a:hover::after {
+    opacity: 1;
+    width: 100%;
+}
+/*=============baner part css start here================*/
+.banner-img {
+    position: relative;
+}
+.baner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 51,0.9) , rgba(51, 51, 102,0.9));
+    display: flex;
+    justify-content: center;
+}
+.baner-text {
+    text-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.baner-text h3 {
+    padding-top: 60px;
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: 800;
+    position: relative;
+    padding-bottom: 43px;
+    
+}
+.baner-text h3::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color:#00e0d0;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.baner-text p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #e5e4e8;
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-bottom: 61px;
+}
+.baner-text a {
+    border: 1px solid #fff;
+    padding: 14px 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.circle-main {
+   padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    bottom: 70px;
+    position: absolute;
+    transform: translateX(-50%);
+    
+}
+.circle-item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #bababc;
+    margin: 5px;
+    transition: all linear .3s;
+}
+.circle-item:hover {
+    background-color: #00e0d0;
+}
+/*=============about part css start here================*/
+.about {
+    display: flex;
+    padding-bottom: 0px;
+}
+.head {
+
+}
+.about-img {
+    
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 103px;
+    padding-left: 35px;
+}
+.about-text {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.about-text h1 {
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: #413d4b;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.about-text p {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #413d4b;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.about-text a {
+    border: 1px solid #00e0d0;
+    padding: 13px 15px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #00e0d0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.ftp {
+    margin-top: -28px;
+}
+.at1 {
+    margin-top: -37px;
+}
+.text-p a {
+margin-top: 10px;
+}
+
+/*=============4545 part css start here================*/
+service-overlay
+
+
+
+/*=============baner part css start here================*/
+/*=============baner part css start here================*/
+/*=============baner part css start here================*/
+/*=============baner part css start here================*/
+/*=============baner part css start here================*/
+/*=============baner part css start here================*/
+/*=============baner part css start here================*/
